@@ -1,0 +1,11 @@
+{
+  "models": [
+    "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "sentence-transformers/paraphrase-multilingual-mpnet-base-v2",
+    "sentence-transformers/distiluse-base-multilingual-cased",
+    "sentence-transformers/LaBSE",
+    "keepitreal/vietnamese-sbert",
+    "VoVanPhuc/sup-SimCSE-VietNamese-phobert-base",
+    "vinai/phobert-base-v2"
+  ]
+}

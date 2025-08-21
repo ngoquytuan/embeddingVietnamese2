@@ -1,0 +1,17 @@
+vietnamese_embedding_evaluator/
+├── configs/
+│   └── models.json
+├── data/
+│   ├── content.md
+│   └── test_suite.json
+├── reports/
+│   └── # Nơi lưu các file JSON kết quả và biểu đồ
+├── src/
+│   ├── __init__.py
+│   ├── data_processor.py
+│   ├── embedding_manager.py
+│   ├── metrics.py
+│   └── visualizer.py
+├── evaluate.py
+├── requirements.txt
+└── README.md

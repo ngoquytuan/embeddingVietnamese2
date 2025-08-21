@@ -1,0 +1,66 @@
+[
+  {
+    "question": "Ai là người đầu tiên đặt ra thuật ngữ Trí tuệ nhân tạo?",
+    "correct_chunk_id": "chunk_0"
+  },
+  {
+    "question": "Hội nghị Dartmouth diễn ra vào năm nào?",
+    "correct_chunk_id": "chunk_0"
+  },
+  {
+    "question": "AI biểu tượng hay GOFAI là gì?",
+    "correct_chunk_id": "chunk_1"
+  },
+  {
+    "question": "Giai đoạn đầu của AI tập trung vào những gì?",
+    "correct_chunk_id": "chunk_1"
+  },
+  {
+    "question": "Mùa đông AI đầu tiên xảy ra khi nào?",
+    "correct_chunk_id": "chunk_2"
+  },
+  {
+    "question": "Nguyên nhân chính gây ra mùa đông AI là gì?",
+    "correct_chunk_id": "chunk_2"
+  },
+  {
+    "question": "Thuật toán backpropagation được phát triển vào thời gian nào?",
+    "correct_chunk_id": "chunk_3"
+  },
+  {
+    "question": "Mạng nơ-ron nhân tạo trỗi dậy vào giai đoạn nào?",
+    "correct_chunk_id": "chunk_3"
+  },
+  {
+    "question": "Học sâu là gì và ứng dụng trong những lĩnh vực nào?",
+    "correct_chunk_id": "chunk_4"
+  },
+  {
+    "question": "GPT-4 và BERT thuộc về kỷ nguyên nào của AI?",
+    "correct_chunk_id": "chunk_4"
+  },
+  {
+    "question": "Những trường đại học nào ở Việt Nam nghiên cứu về AI?",
+    "correct_chunk_id": "chunk_5"
+  },
+  {
+    "question": "Chiến lược quốc gia về AI của Việt Nam có mục tiêu gì?",
+    "correct_chunk_id": "chunk_5"
+  },
+  {
+    "question": "AI được ứng dụng trong những lĩnh vực nào tại Việt Nam?",
+    "correct_chunk_id": "chunk_6"
+  },
+  {
+    "question": "AI được sử dụng như thế nào trong y tế và nông nghiệp?",
+    "correct_chunk_id": "chunk_6"
+  },
+  {
+    "question": "Những thách thức chính của AI hiện nay là gì?",
+    "correct_chunk_id": "chunk_7"
+  },
+  {
+    "question": "Tương lai AI tại Việt Nam như thế nào?",
+    "correct_chunk_id": "chunk_7"
+  }
+]
