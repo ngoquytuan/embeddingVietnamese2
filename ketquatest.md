@@ -1,3 +1,71 @@
+Chắc chắn rồi, đây là bản tổng hợp và phân tích chi tiết về kết quả đánh giá các model embedding của bạn.
+
+Dựa trên kết quả chạy, có hai nhà vô địch về độ chính xác là **`AITeamVN/Vietnamese_Embedding`** và **`Qwen/Qwen3-Embedding-0.6B`** với điểm số ngang bằng. Tuy nhiên, **`Qwen/Qwen3-Embedding-0.6B` nổi bật hơn hẳn về hiệu suất khi nhanh hơn đáng kể**.
+
+---
+
+### **Những Phát Hiện Quan Trọng** ⚠️
+
+Trước khi đi vào chi tiết, có hai vấn đề quan trọng trong quá trình thực thi cần được lưu ý:
+
+1.  **Lỗi Dữ Liệu Test (Test Suite)**: Hệ thống đã cảnh báo `Tìm thấy 2 test cases có chunk_id không tồn tại: Test case 14: chunk_7 Test case 15: chunk_7`. Điều này có nghĩa là 2 trong số 16 câu hỏi của bạn đang tham chiếu đến một phần văn bản (`chunk_7`) không tồn tại. Do đó, **2 câu hỏi này không thể được trả lời đúng**, làm cho điểm số của tất cả các model đều thấp hơn so với năng lực thực tế của chúng.
+2.  **Model Bị Lỗi**: Model `nomic-ai/nomic-embed-text-v1.5` đã không thể chạy được do yêu cầu cờ `trust_remote_code=True`. Lỗi này xảy ra vì model này sử dụng một kiến trúc tùy chỉnh và cần sự cho phép tường minh của người dùng để thực thi mã nguồn đi kèm.
+
+---
+
+### **Bảng Xếp Hạng Chi Tiết** 📊
+
+Dưới đây là bảng so sánh hiệu suất các model đã chạy thành công, được sắp xếp theo chỉ số **MRR** (chỉ số tổng hợp về độ chính xác và khả năng xếp hạng).
+Rất tiếc, file `model_comparison.csv` không có sẵn để đọc trực tiếp, nhưng không sao cả, toàn bộ thông tin quan trọng đều đã có trong kết quả bạn cung cấp.
+
+Đây là bản tổng hợp và phân tích chi tiết về kết quả đánh giá các model embedding của bạn.
+
+Dựa trên kết quả chạy, có hai nhà vô địch về độ chính xác là **`AITeamVN/Vietnamese_Embedding`** và **`Qwen/Qwen3-Embedding-0.6B`** với điểm số ngang bằng. Tuy nhiên, **`Qwen/Qwen3-Embedding-0.6B` nổi bật hơn hẳn về hiệu suất khi nhanh hơn đáng kể**.
+
+---
+### **Những Phát Hiện Quan Trọng** ⚠️
+
+Trước khi đi vào chi tiết, có hai vấn đề quan trọng trong quá trình thực thi cần được lưu ý:
+
+1.  **Lỗi Dữ Liệu Test (Test Suite)**: Hệ thống đã cảnh báo `Tìm thấy 2 test cases có chunk_id không tồn tại: Test case 14: chunk_7 Test case 15: chunk_7`. Điều này có nghĩa là 2 trong số 16 câu hỏi của bạn đang tham chiếu đến một phần văn bản (`chunk_7`) không tồn tại. Do đó, **2 câu hỏi này không thể được trả lời đúng**, làm cho điểm số của tất cả các model đều thấp hơn so với năng lực thực tế của chúng.
+2.  **Model Bị Lỗi**: Model `nomic-ai/nomic-embed-text-v1.5` đã không thể chạy được do yêu cầu cờ `trust_remote_code=True`. Lỗi này xảy ra vì model này sử dụng một kiến trúc tùy chỉnh và cần sự cho phép tường minh của người dùng để thực thi mã nguồn đi kèm.
+
+---
+### **Bảng Xếp Hạng Chi Tiết** 📊
+
+Dưới đây là bảng so sánh hiệu suất các model đã chạy thành công, được sắp xếp theo chỉ số **MRR** (chỉ số tổng hợp về độ chính xác và khả năng xếp hạng).
+
+| Hạng | Tên Model | MRR | Hit\_Rate@1 | Thời gian (giây) | Số chiều (Dimension) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 1. 🥇 | **Qwen3-Embedding-0.6B** | **0.7812** | **68.75%** | **37.9** | 1024 |
+| 2. 🥈 | **Vietnamese\_Embedding** | **0.7812** | **68.75%** | 61.3 | 1024 |
+| 3. 🥉 | paraphrase-multilingual-MiniLM-L12-v2 | 0.7188 | 62.50% | 23.1 | **384** |
+| 4. | vietnamese-embedding | 0.6875 | 56.25% | 27.3 | 768 |
+| 5. | sup-SimCSE-VietNamese-phobert-base | 0.6250 | 43.75% | 21.8 | 768 |
+| 6. | vietnamese-address-embedding | 0.5958 | 50.00% | 59.7 | 768 |
+
+---
+### **Phân Tích Sâu và Đề Xuất** 🧠
+
+#### **"Cặp Đôi Dẫn Đầu": `Qwen` vs. `AITeamVN`**
+Cả hai model này đều đạt được điểm số MRR và Hit Rate giống hệt nhau, cho thấy chúng có khả năng hiểu ngữ nghĩa và truy xuất thông tin tiếng Việt tốt nhất trong nhóm. Tuy nhiên, sự khác biệt lớn nằm ở hiệu suất:
+* **`Qwen/Qwen3-Embedding-0.6B`** chỉ mất **37.9 giây**, nhanh hơn gần 40% so với `AITeamVN/Vietnamese_Embedding` (61.3 giây).
+
+=> **Kết luận**: Với cùng một mức độ chính xác, `Qwen/Qwen3-Embedding-0.6B` là lựa chọn vượt trội hơn hẳn do hiệu suất tốt hơn.
+
+#### **"Lựa Chọn Cân Bằng": `paraphrase-multilingual-MiniLM-L12-v2`**
+Đứng ở vị trí thứ ba, model này vẫn là một lựa chọn rất đáng cân nhắc.
+* **Hiệu quả tài nguyên**: Nó có số chiều nhỏ nhất (**384**), giúp model nhẹ hơn, tốn ít bộ nhớ và xử lý nhanh (chỉ 23.1 giây).
+* **Độ chính xác tốt**: Dù nhỏ gọn, nó vẫn đạt MRR trên 0.7, một con số rất ấn tượng.
+
+#### **Model Chuyên Dụng Không Phù Hợp**
+Model `CaoHaiNam/vietnamese-address-embedding` có kết quả thấp nhất. Điều này hoàn toàn có thể dự đoán được vì nó được huấn luyện chuyên biệt cho việc embedding **địa chỉ** và không phù hợp cho tác vụ tìm kiếm kiến thức chung như trong bài test này.
+
+### **Lời Khuyên Cho Bạn**
+
+* **Để có hiệu suất tốt nhất**: Hãy chọn **`Qwen/Qwen3-Embedding-0.6B`**. Nó mang lại độ chính xác cao nhất với thời gian xử lý nhanh nhất trong nhóm đầu.
+* **Nếu ưu tiên sự nhỏ gọn và tốc độ**: **`paraphrase-multilingual-MiniLM-L12-v2`** là lựa chọn tuyệt vời, đặc biệt phù hợp cho các ứng dụng cần phản hồi nhanh và chạy trên các hệ thống có tài nguyên hạn chế.
+* **Hành động tiếp theo**: Bạn nên **sửa lại file `test_suite.json`** để loại bỏ 2 câu hỏi bị lỗi tham chiếu đến `chunk_7`. Điều này sẽ giúp kết quả đánh giá trong các lần chạy sau trở nên chính xác và đáng tin cậy hơn.
 Tuyệt vời, dựa trên các kết quả mới nhất bạn cung cấp, chúng ta có một nhà vô địch mới! Dưới đây là đánh giá chi tiết về hiệu suất của các model.
 
 ### **Tóm Tắt Kết Quả Chính 🏆**
