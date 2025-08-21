@@ -1,0 +1,40 @@
+Chào bạn, tôi đã xem xét kết quả thực thi và mối quan tâm của bạn. Dưới đây là báo cáo đánh giá và giải đáp thắc mắc.
+
+### Về chiến lược chia Chunks
+
+Bạn đã đặt một câu hỏi rất hay. Mối lo ngại về việc chia chunk với `chunk_size = 150` và `overlap = 30` có thể làm lệch câu trả lời là hoàn toàn hợp lý.
+
+* **Đây là một phương pháp phổ biến:** Việc sử dụng "cửa sổ trượt" (sliding window) với các đoạn văn bản chồng lên nhau (overlap) là một kỹ thuật tiêu chuẩn trong các hệ thống tìm kiếm ngữ nghĩa (semantic search) và RAG. Mục đích chính của **overlap** là để giảm thiểu khả năng một ý hoàn chỉnh hoặc một câu trả lời bị cắt làm đôi ở ranh giới giữa hai chunk.
+* **Sự cân bằng:** Kích thước chunk (150 từ) được chọn để đủ lớn nhằm chứa ngữ cảnh cần thiết, nhưng không quá lớn đến mức làm "loãng" thông tin, khiến việc tìm kiếm câu trả lời cụ thể trở nên khó khăn.
+* **Kết quả chứng minh hiệu quả:** Dựa trên kết quả đánh giá, các model đều đạt được chỉ số MRR (Mean Reciprocal Rank) khá cao (từ 0.7 trở lên) và Hit Rate@3, Hit Rate@5 rất tốt (đa số là 100%). Điều này cho thấy với bộ dữ liệu và câu hỏi này, chiến lược chia chunk đã hoạt động hiệu quả, giúp các model xác định đúng đoạn văn bản liên quan.
+
+**Kết luận:** Mặc dù không có chiến lược chia chunk nào là hoàn hảo tuyệt đối, phương pháp bạn đang sử dụng là một sự cân bằng hợp lý và đã được chứng minh là hiệu quả qua kết quả thực tế.
+
+---
+
+### Báo cáo Đánh giá Hiệu suất các Model Embedding Tiếng Việt
+
+Dựa trên kết quả thực thi, đây là báo cáo tổng kết về hiệu suất của 5 model embedding được đánh giá trên bộ dữ liệu về "Lịch sử Trí tuệ Nhân tạo tại Việt Nam".
+
+### Kết quả chính
+
+* **Model Vô địch:** **`AITeamVN/Vietnamese_Embedding`** là model có hiệu suất cao nhất với chỉ số **MRR là 0.8750** và **Hit Rate@1 là 75%**. Điều này có nghĩa là trong 75% các trường hợp, nó đã tìm thấy đúng chunk câu trả lời ngay ở vị trí đầu tiên.
+* **Đối thủ cạnh tranh:** Model **`Qwen/Qwen3-Embedding-0.6B`** đạt được kết quả chính xác tương tự (`MRR: 0.8750`, `Hit@1: 75%`) nhưng có thời gian xử lý chậm hơn một chút (8.4 giây so với 6.6 giây).
+* **Hiệu suất chung:** Nhìn chung, tất cả các model đều hoạt động rất tốt. Đáng chú ý là hầu hết các model đều đạt **Hit Rate@3** và **Hit Rate@5 là 100%**, cho thấy chúng gần như luôn tìm thấy chunk chính xác trong top 3 hoặc top 5 kết quả trả về.
+* **Tốc độ và Hiệu năng:** Model `VoVanPhuc/sup-SimCSE-VietNamese-phobert-base` là model nhanh nhất (3.0 giây) nhưng có độ chính xác thấp nhất trong nhóm. Ngược lại, các model có độ chính xác cao hơn thường đòi hỏi nhiều thời gian xử lý hơn.
+
+### Bảng xếp hạng chi tiết (sắp xếp theo MRR)
+
+| Hạng | Model | MRR | Hit Rate@1 | Thời gian (giây) |
+| :--- | :--- | :--- | :--- | :--- |
+| 🥇 1 | **AITeamVN/Vietnamese\_Embedding** | **0.8750** | **75.00%** | 6.6 |
+| 🥈 2 | Qwen/Qwen3-Embedding-0.6B | 0.8750 | 75.00% | 8.4 |
+| 🥉 3 | paraphrase-multilingual-MiniLM-L12-v2 | 0.8125 | 68.75% | 5.9 |
+| 4 | dangvantuan/vietnamese-embedding | 0.7812 | 62.50% | 4.5 |
+| 5 | sup-SimCSE-VietNamese-phobert-base | 0.7083 | 50.00% | 3.0 |
+
+### Kết luận
+
+Dựa trên các chỉ số về độ chính xác, **`AITeamVN/Vietnamese_Embedding`** là lựa chọn tốt nhất cho tác vụ này. Tuy nhiên, nếu có sự cân nhắc giữa tốc độ và độ chính xác, các model khác trong bảng xếp hạng cũng là những lựa chọn đáng giá.
+
+Bạn có thể xem các biểu đồ so sánh trực quan và phân tích chi tiết hơn trong file `reports/performance_report.html` đã được tạo ra.
