@@ -601,3 +601,64 @@ if __name__ == "__main__":
 - **Documentation**: README.md trong project repository
 
 **Tài liệu này cung cấp roadmap đầy đủ để implement FR-01.1 mà không cần code cụ thể. Team kỹ thuật có thể follow step-by-step guide này để build evaluation framework và chọn embedding models tối ưu cho hệ thống.**
+
+
+---
+Đúng rồi! Bạn phân tích rất chính xác. **FR-01.1** là một module hoàn toàn **độc lập** và có tính chất **nghiên cứu/đánh giá** (Research & Evaluation), không phải là phần của hệ thống production.
+
+## 🔬 **MODULE ĐÁNH GIÁ EMBEDDING MODELS (FR-01.1)**
+
+### **Đặc điểm chính:**
+- ✅ **Hoàn toàn độc lập** với hệ thống chính
+- ✅ **Chạy một lần** trong giai đoạn đầu dự án (Tuần 1-2)
+- ✅ **Output đơn giản**: Danh sách 2-3 tên models tốt nhất
+- ✅ **Không cần integration** với các module khác
+
+### **Input của module:**
+```
+📥 INPUT:
+- Danh sách 5+ embedding models để test
+- Bộ dataset Q&A mẫu từ tài liệu nội bộ
+- Tiêu chí đánh giá (Hit Rate, MRR)
+
+🔄 PROCESSING:
+- Chạy test benchmark trên từng model
+- So sánh performance metrics
+- Ranking và lựa chọn
+
+📤 OUTPUT:
+- Báo cáo so sánh models
+- Tên 2-3 models tốt nhất (VD: "text-embedding-ada-002", "all-MiniLM-L6-v2")
+- Recommendation cho production
+```
+
+### **Ví dụ kết quả cuối cùng:**
+```json
+{
+  "recommended_models": [
+    {
+      "name": "text-embedding-ada-002",
+      "hit_rate": 0.87,
+      "mrr": 0.73,
+      "rank": 1,
+      "note": "Best overall performance"
+    },
+    {
+      "name": "all-MiniLM-L6-v2", 
+      "hit_rate": 0.83,
+      "mrr": 0.68,
+      "rank": 2,
+      "note": "Good performance, lower cost"
+    }
+  ],
+  "production_recommendation": "Use text-embedding-ada-002 as primary, all-MiniLM-L6-v2 as fallback"
+}
+```
+
+### **Sau khi hoàn thành module này:**
+- Kết quả được sử dụng để cấu hình cho **FR-03.3 (Data Ingestion Pipeline)** và **FR-04.1 (Document Retrieval)**
+- Module này có thể được **archive** hoặc chỉ chạy lại khi cần đánh giá models mới
+- **Không cần maintain** trong production environment
+
+Bạn hiểu đúng rồi - đây là module **"chạy một lần và cho kết quả"** để support cho việc thiết kế hệ thống chính! 🎯
+
