@@ -1,0 +1,78 @@
+{
+  "total_chunks": 12,
+  "avg_word_count": 132.66666666666666,
+  "chunks": [
+    {
+      "id": "chunk_0",
+      "text": "Lịch_sử và Phát_triển của Trí_tuệ Nhân_tạo tại Việt_Nam Khái_niệm về Trí_tuệ Nhân_tạo Trí_tuệ nhân_tạo ( AI ) là một lĩnh_vực của khoa_học máy_tính tập_trung vào việc tạo ra các cỗ máy thông_minh có khả_năng hoạt_động và phản_ứng như con_người Thuật_ngữ \" Artificial_Intelligence \" được John McCarthy đặt ra lần đầu_tiên vào năm 1956 tại Hội_nghị Dartmouth AI bao_gồm nhiều lĩnh_vực con như học máy , xử_lý ngôn_ngữ tự_nhiên , thị_giác máy_tính , và robotics Mục_tiêu cuối_cùng của AI là tạo ra những hệ_thống có_thể thực_hiện các tác vụ đòi_hỏi trí thông_minh của con_người Giai_đoạn đầu của AI ( 1950 - 1970 ) Giai_đoạn đầu của AI , từ những năm 1950 đến 1970 , được gọi là thời_kỳ của \" AI biểu_tượng \" hay \" GOFAI \" ( Good_Old - Fashioned AI )",
+      "word_count": 133,
+      "sentence_count": 5
+    },
+    {
+      "id": "chunk_1",
+      "text": "Mục_tiêu cuối_cùng của AI là tạo ra những hệ_thống có_thể thực_hiện các tác vụ đòi_hỏi trí thông_minh của con_người Giai_đoạn đầu của AI ( 1950 - 1970 ) Giai_đoạn đầu của AI , từ những năm 1950 đến 1970 , được gọi là thời_kỳ của \" AI biểu_tượng \" hay \" GOFAI \" ( Good_Old - Fashioned AI ) Các nhà nghiên_cứu tin rằng trí thông_minh của con_người có_thể được mô_phỏng bằng cách sử_dụng logic_toán_học và các quy_tắc biểu_tượng rõ_ràng Trong giai_đoạn này , các nhà khoa_học_tập_trung vào việc phát_triển các hệ_thống chuyên_gia và các thuật_toán tìm_kiếm Họ tin rằng có_thể giải_quyết mọi vấn_đề bằng cách lập_trình các quy_tắc logic một cách tường_minh Mùa đông AI đầu_tiên ( 1970 - 1980 ) Vào giữa những năm 1970 , lĩnh_vực AI trải qua \" mùa đông AI \" đầu_tiên do sự cắt_giảm tài_trợ nghiên_cứu và sự thất_vọng về tiến_độ chậm_chạp",
+      "word_count": 149,
+      "sentence_count": 6
+    },
+    {
+      "id": "chunk_2",
+      "text": "Họ tin rằng có_thể giải_quyết mọi vấn_đề bằng cách lập_trình các quy_tắc logic một cách tường_minh Mùa đông AI đầu_tiên ( 1970 - 1980 ) Vào giữa những năm 1970 , lĩnh_vực AI trải qua \" mùa đông AI \" đầu_tiên do sự cắt_giảm tài_trợ nghiên_cứu và sự thất_vọng về tiến_độ chậm_chạp Các hệ_thống AI thời đó không_thể xử_lý được sự không chắc_chắn và tính mơ_hồ của thế_giới thực Những hạn_chế chính bao_gồm : khả_năng xử_lý dữ_liệu hạn_chế , thiếu sức_mạnh tính_toán , và việc không_thể học_hỏi từ kinh_nghiệm Điều này dẫn đến sự giảm_sút đáng_kể trong đầu_tư và nghiên_cứu AI Sự trỗi dậy của Mạng_nơ - ron ( 1980 - 2000 ) Sự trỗi dậy của mạng nơ - ron nhân_tạo và học máy vào những năm 1980 và 1990 đã mở ra một kỷ_nguyên mới cho AI",
+      "word_count": 139,
+      "sentence_count": 6
+    },
+    {
+      "id": "chunk_3",
+      "text": "Điều này dẫn đến sự giảm_sút đáng_kể trong đầu_tư và nghiên_cứu AI Sự trỗi dậy của Mạng_nơ - ron ( 1980 - 2000 ) Sự trỗi dậy của mạng nơ - ron nhân_tạo và học máy vào những năm 1980 và 1990 đã mở ra một kỷ_nguyên mới cho AI Thay_vì lập_trình các quy_tắc một_cách rõ_ràng , các hệ_thống bắt_đầu có khả_năng học_hỏi từ dữ_liệu Các thuật_toán như backpropagation được phát_triển , cho phép huấn_luyện mạng nơ - ron nhiều lớp Điều này tạo nền_tảng cho những đột_phá sau_này trong lĩnh_vực học sâu Kỷ_nguyên Học sâu ( 2010 - nay ) Ngày_nay , học sâu ( Deep_Learning ) , một nhánh của học máy sử_dụng mạng nơ - ron sâu , đã tạo ra những đột_phá đáng kinh_ngạc trong nhiều lĩnh_vực Các ứng_dụng bao_gồm nhận_dạng hình_ảnh , xử_lý ngôn_ngữ tự_nhiên , xe tự lái , và y_học chính_xác",
+      "word_count": 148,
+      "sentence_count": 7
+    },
+    {
+      "id": "chunk_4",
+      "text": "Kỷ_nguyên Học sâu ( 2010 - nay ) Ngày_nay , học sâu ( Deep_Learning ) , một nhánh của học máy sử_dụng mạng nơ - ron sâu , đã tạo ra những đột_phá đáng kinh_ngạc trong nhiều lĩnh_vực Các ứng_dụng bao_gồm nhận_dạng hình_ảnh , xử_lý ngôn_ngữ tự_nhiên , xe tự lái , và y_học chính_xác Các mô_hình lớn như GPT - 3 , GPT - 4 , BERT , và transformer architecture đã cách_mạng_hóa cách chúng_ta tiếp_cận các bài_toán AI Sức_mạnh tính_toán ngày_càng tăng và lượng dữ_liệu khổng_lồ đã tạo điều_kiện cho những tiến_bộ này AI tại Việt_Nam Việt_Nam đang nhanh_chóng phát_triển trong lĩnh_vực AI với nhiều startup công_nghệ và trung_tâm nghiên_cứu Các trường đại_học hàng_đầu như Đại_học Bách_Khoa Hà_Nội , Đại_học Quốc_Gia TP. HCM đã thành_lập các khoa và phòng lab chuyên về AI",
+      "word_count": 135,
+      "sentence_count": 6
+    },
+    {
+      "id": "chunk_5",
+      "text": "AI tại Việt_Nam Việt_Nam đang nhanh_chóng phát_triển trong lĩnh_vực AI với nhiều startup công_nghệ và trung_tâm nghiên_cứu Các trường đại_học hàng_đầu như Đại_học Bách_Khoa Hà_Nội , Đại_học Quốc_Gia TP. HCM đã thành_lập các khoa và phòng lab chuyên về AI Chính_phủ Việt_Nam đã ban_hành Chiến_lược quốc_gia về nghiên_cứu , phát_triển và ứng_dụng trí_tuệ nhân_tạo đến năm 2030 Mục_tiêu là biến Việt_Nam trở_thành một trong những nước dẫn_đầu ASEAN về AI Ứng_dụng AI trong thực_tế AI đã được ứng_dụng rộng_rãi trong nhiều lĩnh_vực tại Việt_Nam như ngân_hàng , thương_mại điện_tử , y_tế , giáo_dục và nông_nghiệp Các chatbot thông_minh , hệ_thống gợi_ý sản_phẩm , và phân_tích dữ_liệu khách_hàng đã trở_nên phổ_biến Trong y_tế , AI được sử_dụng để chẩn_đoán hình_ảnh y_khoa , dự_đoán dịch_bệnh , và phát_triển thuốc mới Trong nông_nghiệp , AI giúp tối_ưu_hóa việc tưới_tiêu , dự_báo thời_tiết , và quản_lý cây_trồng",
+      "word_count": 143,
+      "sentence_count": 8
+    },
+    {
+      "id": "chunk_6",
+      "text": "Trong y_tế , AI được sử_dụng để chẩn_đoán hình_ảnh y_khoa , dự_đoán dịch_bệnh , và phát_triển thuốc mới Trong nông_nghiệp , AI giúp tối_ưu_hóa việc tưới_tiêu , dự_báo thời_tiết , và quản_lý cây_trồng Thách_thức và Tương_lai Mặc_dù có nhiều tiến_bộ , AI vẫn đối_mặt với nhiều thách_thức như vấn_đề đạo_đức , bias trong dữ_liệu , bảo_mật thông_tin , và tác_động đến việc_làm Việt_Nam cần phát_triển khung pháp_lý phù_hợp và đào_tạo nhân_lực chất_lượng cao Tương_lai của AI tại Việt_Nam rất triển_vọng với sự đầu_tư mạnh_mẽ vào nghiên_cứu và phát_triển Mục_tiêu là tạo ra những sản_phẩm AI \" Make in Vietnam \" có_thể cạnh_tranh trên thị_trường quốc_tế",
+      "word_count": 105,
+      "sentence_count": 6
+    },
+    {
+      "id": "chunk_7",
+      "text": "Tương_lai của AI tại Việt_Nam rất triển_vọng với sự đầu_tư mạnh_mẽ vào nghiên_cứu và phát_triển Mục_tiêu là tạo ra những sản_phẩm AI \" Make in Vietnam \" có_thể cạnh_tranh trên thị_trường quốc_tế Các Quy_Định Pháp_Luật Mới Về Công_Nghệ Tại Việt_Nam Chương_trình Chuyển_đổi số Quốc_gia ( Quyết_định 749 QĐ - TTg ) Ngày 03 6 2020 , Thủ_tướng Chính_phủ đã ban_hành Quyết_định số 749 QĐ - TTg phê_duyệt \" Chương_trình Chuyển_đổi số quốc_gia đến năm 2025 , định_hướng đến năm 2030 \" Chương_trình đặt ra mục_tiêu kép : vừa phát_triển Chính_phủ số , kinh_tế số , xã_hội số , vừa hình_thành các doanh_nghiệp công_nghệ số Việt_Nam có năng_lực đi ra toàn_cầu Ba trụ_cột chính của chương_trình bao_gồm : 1 Chính_phủ số : Nâng cao hiệu_quả , hiệu_lực hoạt_động Kinh_tế số : Nâng cao năng_lực cạnh_tranh của nền kinh_tế Xã_hội số : Thu_hẹp khoảng_cách số",
+      "word_count": 143,
+      "sentence_count": 8
+    },
+    {
+      "id": "chunk_8",
+      "text": "Kinh_tế số : Nâng cao năng_lực cạnh_tranh của nền kinh_tế Xã_hội số : Thu_hẹp khoảng_cách số Mục_tiêu đến năm 2030 , Việt_Nam thuộc nhóm 50 nước dẫn_đầu về Chính_phủ điện_tử ( EGDI ) Chiến_lược Quốc_gia về Trí_tuệ Nhân_tạo ( Quyết_định 127 QĐ - TTg ) Ngày 26 01 2021 , Chính_phủ đã ban_hành Quyết_định 127 QĐ - TTg về \" Chiến_lược quốc_gia về nghiên_cứu , phát_triển và ứng_dụng Trí_tuệ nhân_tạo ( AI ) đến năm 2030 \" Chiến_lược đặt mục_tiêu đưa Việt_Nam trở_thành trung_tâm đổi_mới sáng_tạo , phát_triển các giải_pháp và ứng_dụng AI trong khu_vực ASEAN và trên thế_giới Các nhiệm_vụ trọng_tâm bao_gồm : - Xây_dựng hệ_thống văn_bản pháp_lý và hành_lang pháp_lý liên_quan đến AI - Xây_dựng hệ sinh_thái AI , thúc_đẩy các startup và doanh_nghiệp ứng_dụng AI - Phát_triển nguồn nhân_lực AI chất_lượng cao - Xây_dựng hạ_tầng dữ_liệu và tính_toán hiệu_năng cao phục_vụ cho AI",
+      "word_count": 146,
+      "sentence_count": 9
+    },
+    {
+      "id": "chunk_9",
+      "text": "- Phát_triển nguồn nhân_lực AI chất_lượng cao - Xây_dựng hạ_tầng dữ_liệu và tính_toán hiệu_năng cao phục_vụ cho AI Luật An_ninh mạng ( Luật 24 2018 QH14 ) Luật An_ninh mạng được Quốc_hội khóa XIV thông_qua_ngày 12 6 2018 và có hiệu_lực từ ngày 01 01 2019 Luật_định_nghĩa \" không_gian mạng \" là môi_trường mạng kết_nối các cơ_sở hạ_tầng công_nghệ thông_tin \" An_ninh mạng \" là sự bảo_đảm hoạt_động trên không_gian mạng không gây phương_hại đến an_ninh quốc_gia , trật_tự , an_toàn xã_hội Luật quy_định các biện_pháp_bảo_vệ an_ninh mạng , phòng_ngừa , phát_hiện và xử_lý các hành_vi xâm_phạm Các doanh_nghiệp cung_cấp dịch_vụ trên mạng viễn_thông , mạng Internet tại Việt_Nam có trách_nhiệm xác_thực thông_tin người dùng , bảo_mật thông_tin và dữ_liệu , đồng_thời phối_hợp với cơ_quan_chức_năng để xử_lý các hành_vi vi_phạm_pháp_luật",
+      "word_count": 130,
+      "sentence_count": 7
+    },
+    {
+      "id": "chunk_10",
+      "text": "Luật quy_định các biện_pháp_bảo_vệ an_ninh mạng , phòng_ngừa , phát_hiện và xử_lý các hành_vi xâm_phạm Các doanh_nghiệp cung_cấp dịch_vụ trên mạng viễn_thông , mạng Internet tại Việt_Nam có trách_nhiệm xác_thực thông_tin người dùng , bảo_mật thông_tin và dữ_liệu , đồng_thời phối_hợp với cơ_quan_chức_năng để xử_lý các hành_vi vi_phạm_pháp_luật Bảo_vệ Dữ_liệu Cá_nhân ( Nghị_định 13 2023 NĐ - CP ) Ngày 17 4 2023 , Chính_phủ đã ban_hành Nghị_định 13 2023 NĐ - CP về bảo_vệ dữ_liệu cá_nhân , có hiệu_lực từ ngày 01 7 2023 Đây là văn_bản pháp_lý quan_trọng đầu_tiên quy_định chi_tiết về bảo_vệ dữ_liệu cá_nhân tại Việt_Nam Nghị_định định_nghĩa rõ \" dữ_liệu cá_nhân \" và \" dữ_liệu cá_nhân nhạy_cảm \" ( như thông_tin sức_khỏe , dữ_liệu sinh trắc học , thông_tin tài_chính ) Chủ_thể dữ_liệu có các quyền như quyền được biết , quyền đồng_ý , quyền truy_cập , và quyền xóa dữ_liệu",
+      "word_count": 145,
+      "sentence_count": 6
+    },
+    {
+      "id": "chunk_11",
+      "text": "Nghị_định định_nghĩa rõ \" dữ_liệu cá_nhân \" và \" dữ_liệu cá_nhân nhạy_cảm \" ( như thông_tin sức_khỏe , dữ_liệu sinh trắc học , thông_tin tài_chính ) Chủ_thể dữ_liệu có các quyền như quyền được biết , quyền đồng_ý , quyền truy_cập , và quyền xóa dữ_liệu Các tổ_chức , doanh_nghiệp ( Bên Kiểm_soát và Xử_lý dữ_liệu ) có nghĩa_vụ phải có sự đồng_ý của chủ_thể trước khi xử_lý dữ_liệu và phải áp_dụng các biện_pháp_bảo_vệ phù_hợp .",
+      "word_count": 76,
+      "sentence_count": 3
+    }
+  ]
+}

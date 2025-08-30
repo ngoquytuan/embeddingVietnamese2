@@ -1,0 +1,16 @@
+{
+  "Model": "sentence-transformers/distiluse-base-multilingual-cased",
+  "Dimension": 512,
+  "Evaluation_Time_Seconds": 21.090604066848755,
+  "Total_Questions": 16,
+  "Total_Chunks": 7,
+  "MRR": 0.715625,
+  "Hit_Rate@1": 0.6875,
+  "Hit_Rate@3": 0.6875,
+  "Hit_Rate@5": 0.8125,
+  "MAP@5": 0.715625,
+  "NDCG@5": 0.7385955853317459,
+  "Precision@5": 0.16250000000000003,
+  "Recall@5": 0.8125,
+  "Timestamp": "2025-08-21T18:47:48.477105"
+}

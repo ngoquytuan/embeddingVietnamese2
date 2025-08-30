@@ -1,0 +1,16 @@
+{
+  "Model": "Qwen/Qwen3-Embedding-0.6B",
+  "Dimension": 1024,
+  "Evaluation_Time_Seconds": 6.86763334274292,
+  "Total_Questions": 21,
+  "Total_Chunks": 12,
+  "MRR": 0.8412698412698412,
+  "Hit_Rate@1": 0.7142857142857143,
+  "Hit_Rate@3": 1.0,
+  "Hit_Rate@5": 1.0,
+  "MAP@5": 0.8412698412698412,
+  "NDCG@5": 0.8820818578231349,
+  "Precision@5": 0.20000000000000004,
+  "Recall@5": 1.0,
+  "Timestamp": "2025-08-22T05:59:20.351785"
+}

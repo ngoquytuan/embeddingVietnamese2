@@ -1,0 +1,16 @@
+{
+  "Model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "Dimension": 384,
+  "Evaluation_Time_Seconds": 4.887833833694458,
+  "Total_Questions": 21,
+  "Total_Chunks": 12,
+  "MRR": 0.7634920634920634,
+  "Hit_Rate@1": 0.6666666666666666,
+  "Hit_Rate@3": 0.8571428571428571,
+  "Hit_Rate@5": 0.9047619047619048,
+  "MAP@5": 0.7634920634920634,
+  "NDCG@5": 0.799030574664234,
+  "Precision@5": 0.18095238095238098,
+  "Recall@5": 0.9047619047619048,
+  "Timestamp": "2025-08-22T05:59:07.902021"
+}

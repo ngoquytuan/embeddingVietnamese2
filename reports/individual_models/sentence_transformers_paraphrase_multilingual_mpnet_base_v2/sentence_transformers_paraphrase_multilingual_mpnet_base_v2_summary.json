@@ -1,0 +1,16 @@
+{
+  "Model": "sentence-transformers/paraphrase-multilingual-mpnet-base-v2",
+  "Dimension": 768,
+  "Evaluation_Time_Seconds": 34.72791647911072,
+  "Total_Questions": 16,
+  "Total_Chunks": 7,
+  "MRR": 0.703125,
+  "Hit_Rate@1": 0.625,
+  "Hit_Rate@3": 0.75,
+  "Hit_Rate@5": 0.8125,
+  "MAP@5": 0.703125,
+  "NDCG@5": 0.7307835040760193,
+  "Precision@5": 0.16250000000000003,
+  "Recall@5": 0.8125,
+  "Timestamp": "2025-08-21T18:47:27.373105"
+}

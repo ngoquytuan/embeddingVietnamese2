@@ -1,0 +1,16 @@
+{
+  "Model": "AITeamVN/Vietnamese_Embedding",
+  "Dimension": 1024,
+  "Evaluation_Time_Seconds": 5.556308746337891,
+  "Total_Questions": 21,
+  "Total_Chunks": 12,
+  "MRR": 0.8666666666666666,
+  "Hit_Rate@1": 0.7619047619047619,
+  "Hit_Rate@3": 0.9523809523809523,
+  "Hit_Rate@5": 1.0,
+  "MAP@5": 0.8666666666666666,
+  "NDCG@5": 0.9005034200723986,
+  "Precision@5": 0.20000000000000004,
+  "Recall@5": 1.0,
+  "Timestamp": "2025-08-22T05:59:13.468787"
+}

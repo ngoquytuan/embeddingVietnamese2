@@ -1,0 +1,17 @@
+question_id,question,correct_chunk_id,found_rank,reciprocal_rank,hit@1,hit@3,hit@5,ap,ndcg@5,top_1_score,correct_score
+1,Ai là người đầu tiên đặt ra thuật ngữ Trí tuệ nhân...,chunk_0,1.0,1.0,1,1,1,1.0,1.0,0.747490406036377,0.747490406036377
+2,Hội nghị Dartmouth diễn ra vào năm nào?,chunk_0,4.0,0.25,0,0,1,0.25,0.43067655807339306,0.19341550767421722,0.1720757633447647
+3,AI biểu tượng hay GOFAI là gì?,chunk_1,1.0,1.0,1,1,1,1.0,1.0,0.39121127128601074,0.39121127128601074
+4,Giai đoạn đầu của AI tập trung vào những gì?,chunk_1,1.0,1.0,1,1,1,1.0,1.0,0.8083856105804443,0.8083856105804443
+5,Mùa đông AI đầu tiên xảy ra khi nào?,chunk_2,1.0,1.0,1,1,1,1.0,1.0,0.5226418972015381,0.5226418972015381
+6,Nguyên nhân chính gây ra mùa đông AI là gì?,chunk_2,1.0,1.0,1,1,1,1.0,1.0,0.6314755082130432,0.6314755082130432
+7,Thuật toán backpropagation được phát triển vào thờ...,chunk_3,2.0,0.5,0,1,1,0.5,0.6309297535714575,0.4831206798553467,0.4492744207382202
+8,Mạng nơ-ron nhân tạo trỗi dậy vào giai đoạn nào?,chunk_3,1.0,1.0,1,1,1,1.0,1.0,0.7027539014816284,0.7027539014816284
+9,Học sâu là gì và ứng dụng trong những lĩnh vực nào...,chunk_4,1.0,1.0,1,1,1,1.0,1.0,0.7154906988143921,0.7154906988143921
+10,GPT-4 và BERT thuộc về kỷ nguyên nào của AI?,chunk_4,,0.0,0,0,0,0.0,0.0,0.6570398211479187,0.0
+11,Những trường đại học nào ở Việt Nam nghiên cứu về ...,chunk_5,1.0,1.0,1,1,1,1.0,1.0,0.8310768604278564,0.8310768604278564
+12,Chiến lược quốc gia về AI của Việt Nam có mục tiêu...,chunk_5,1.0,1.0,1,1,1,1.0,1.0,0.775139570236206,0.775139570236206
+13,AI được ứng dụng trong những lĩnh vực nào tại Việt...,chunk_6,2.0,0.5,0,1,1,0.5,0.6309297535714575,0.8188480138778687,0.7090723514556885
+14,AI được sử dụng như thế nào trong y tế và nông ngh...,chunk_6,1.0,1.0,1,1,1,1.0,1.0,0.7922436594963074,0.7922436594963074
+15,Những thách thức chính của AI hiện nay là gì?,chunk_7,,0.0,0,0,0,0.0,0.0,0.6964410543441772,0.0
+16,Tương lai AI tại Việt Nam như thế nào?,chunk_7,,0.0,0,0,0,0.0,0.0,0.750906229019165,0.0

@@ -1,0 +1,864 @@
+{
+  "model_name": "vinai/phobert-base-v2",
+  "model_info": {
+    "name": "vinai/phobert-base-v2",
+    "dimension": 768,
+    "device": "cuda",
+    "max_sequence_length": 258
+  },
+  "embedding_dimension": 768,
+  "evaluation_time_seconds": 9.814610481262207,
+  "summary_metrics": {
+    "MRR": 0.6114583333333333,
+    "Hit_Rate@1": 0.5,
+    "Hit_Rate@3": 0.6875,
+    "Hit_Rate@5": 0.8125,
+    "MAP@5": 0.6114583333333333,
+    "NDCG@5": 0.6612118045281781,
+    "Precision@5": 0.16250000000000003,
+    "Recall@5": 0.8125
+  },
+  "detailed_metrics": [
+    {
+      "question_id": 1,
+      "question": "Ai là người đầu tiên đặt ra thuật ngữ Trí tuệ nhân...",
+      "correct_chunk_id": "chunk_0",
+      "found_rank": 1.0,
+      "reciprocal_rank": 1.0,
+      "hit@1": 1,
+      "hit@3": 1,
+      "hit@5": 1,
+      "ap": 1.0,
+      "ndcg@5": 1.0,
+      "top_1_score": 0.7281674742698669,
+      "correct_score": 0.7281674742698669
+    },
+    {
+      "question_id": 2,
+      "question": "Hội nghị Dartmouth diễn ra vào năm nào?",
+      "correct_chunk_id": "chunk_0",
+      "found_rank": 1.0,
+      "reciprocal_rank": 1.0,
+      "hit@1": 1,
+      "hit@3": 1,
+      "hit@5": 1,
+      "ap": 1.0,
+      "ndcg@5": 1.0,
+      "top_1_score": 0.6772783398628235,
+      "correct_score": 0.6772783398628235
+    },
+    {
+      "question_id": 3,
+      "question": "AI biểu tượng hay GOFAI là gì?",
+      "correct_chunk_id": "chunk_1",
+      "found_rank": NaN,
+      "reciprocal_rank": 0.0,
+      "hit@1": 0,
+      "hit@3": 0,
+      "hit@5": 0,
+      "ap": 0.0,
+      "ndcg@5": 0.0,
+      "top_1_score": 0.6567282676696777,
+      "correct_score": 0.0
+    },
+    {
+      "question_id": 4,
+      "question": "Giai đoạn đầu của AI tập trung vào những gì?",
+      "correct_chunk_id": "chunk_1",
+      "found_rank": 2.0,
+      "reciprocal_rank": 0.5,
+      "hit@1": 0,
+      "hit@3": 1,
+      "hit@5": 1,
+      "ap": 0.5,
+      "ndcg@5": 0.6309297535714575,
+      "top_1_score": 0.666607141494751,
+      "correct_score": 0.6653794050216675
+    },
+    {
+      "question_id": 5,
+      "question": "Mùa đông AI đầu tiên xảy ra khi nào?",
+      "correct_chunk_id": "chunk_2",
+      "found_rank": 1.0,
+      "reciprocal_rank": 1.0,
+      "hit@1": 1,
+      "hit@3": 1,
+      "hit@5": 1,
+      "ap": 1.0,
+      "ndcg@5": 1.0,
+      "top_1_score": 0.6404475569725037,
+      "correct_score": 0.6404475569725037
+    },
+    {
+      "question_id": 6,
+      "question": "Nguyên nhân chính gây ra mùa đông AI là gì?",
+      "correct_chunk_id": "chunk_2",
+      "found_rank": 1.0,
+      "reciprocal_rank": 1.0,
+      "hit@1": 1,
+      "hit@3": 1,
+      "hit@5": 1,
+      "ap": 1.0,
+      "ndcg@5": 1.0,
+      "top_1_score": 0.7055390477180481,
+      "correct_score": 0.7055390477180481
+    },
+    {
+      "question_id": 7,
+      "question": "Thuật toán backpropagation được phát triển vào thờ...",
+      "correct_chunk_id": "chunk_3",
+      "found_rank": 2.0,
+      "reciprocal_rank": 0.5,
+      "hit@1": 0,
+      "hit@3": 1,
+      "hit@5": 1,
+      "ap": 0.5,
+      "ndcg@5": 0.6309297535714575,
+      "top_1_score": 0.6819330453872681,
+      "correct_score": 0.6710437536239624
+    },
+    {
+      "question_id": 8,
+      "question": "Mạng nơ-ron nhân tạo trỗi dậy vào giai đoạn nào?",
+      "correct_chunk_id": "chunk_3",
+      "found_rank": 1.0,
+      "reciprocal_rank": 1.0,
+      "hit@1": 1,
+      "hit@3": 1,
+      "hit@5": 1,
+      "ap": 1.0,
+      "ndcg@5": 1.0,
+      "top_1_score": 0.7102640867233276,
+      "correct_score": 0.7102640867233276
+    },
+    {
+      "question_id": 9,
+      "question": "Học sâu là gì và ứng dụng trong những lĩnh vực nào...",
+      "correct_chunk_id": "chunk_4",
+      "found_rank": 1.0,
+      "reciprocal_rank": 1.0,
+      "hit@1": 1,
+      "hit@3": 1,
+      "hit@5": 1,
+      "ap": 1.0,
+      "ndcg@5": 1.0,
+      "top_1_score": 0.7065142393112183,
+      "correct_score": 0.7065142393112183
+    },
+    {
+      "question_id": 10,
+      "question": "GPT-4 và BERT thuộc về kỷ nguyên nào của AI?",
+      "correct_chunk_id": "chunk_4",
+      "found_rank": 1.0,
+      "reciprocal_rank": 1.0,
+      "hit@1": 1,
+      "hit@3": 1,
+      "hit@5": 1,
+      "ap": 1.0,
+      "ndcg@5": 1.0,
+      "top_1_score": 0.7183657288551331,
+      "correct_score": 0.7183657288551331
+    },
+    {
+      "question_id": 11,
+      "question": "Những trường đại học nào ở Việt Nam nghiên cứu về ...",
+      "correct_chunk_id": "chunk_5",
+      "found_rank": 1.0,
+      "reciprocal_rank": 1.0,
+      "hit@1": 1,
+      "hit@3": 1,
+      "hit@5": 1,
+      "ap": 1.0,
+      "ndcg@5": 1.0,
+      "top_1_score": 0.5845984816551208,
+      "correct_score": 0.5845984816551208
+    },
+    {
+      "question_id": 12,
+      "question": "Chiến lược quốc gia về AI của Việt Nam có mục tiêu...",
+      "correct_chunk_id": "chunk_5",
+      "found_rank": 3.0,
+      "reciprocal_rank": 0.3333333333333333,
+      "hit@1": 0,
+      "hit@3": 1,
+      "hit@5": 1,
+      "ap": 0.3333333333333333,
+      "ndcg@5": 0.5,
+      "top_1_score": 0.6563650965690613,
+      "correct_score": 0.6298068761825562
+    },
+    {
+      "question_id": 13,
+      "question": "AI được ứng dụng trong những lĩnh vực nào tại Việt...",
+      "correct_chunk_id": "chunk_6",
+      "found_rank": 5.0,
+      "reciprocal_rank": 0.2,
+      "hit@1": 0,
+      "hit@3": 0,
+      "hit@5": 1,
+      "ap": 0.2,
+      "ndcg@5": 0.38685280723454163,
+      "top_1_score": 0.7284034490585327,
+      "correct_score": 0.7072263956069946
+    },
+    {
+      "question_id": 14,
+      "question": "AI được sử dụng như thế nào trong y tế và nông ngh...",
+      "correct_chunk_id": "chunk_6",
+      "found_rank": 4.0,
+      "reciprocal_rank": 0.25,
+      "hit@1": 0,
+      "hit@3": 0,
+      "hit@5": 1,
+      "ap": 0.25,
+      "ndcg@5": 0.43067655807339306,
+      "top_1_score": 0.6925908923149109,
+      "correct_score": 0.6821510195732117
+    },
+    {
+      "question_id": 15,
+      "question": "Những thách thức chính của AI hiện nay là gì?",
+      "correct_chunk_id": "chunk_7",
+      "found_rank": NaN,
+      "reciprocal_rank": 0.0,
+      "hit@1": 0,
+      "hit@3": 0,
+      "hit@5": 0,
+      "ap": 0.0,
+      "ndcg@5": 0.0,
+      "top_1_score": 0.7180396318435669,
+      "correct_score": 0.0
+    },
+    {
+      "question_id": 16,
+      "question": "Tương lai AI tại Việt Nam như thế nào?",
+      "correct_chunk_id": "chunk_7",
+      "found_rank": NaN,
+      "reciprocal_rank": 0.0,
+      "hit@1": 0,
+      "hit@3": 0,
+      "hit@5": 0,
+      "ap": 0.0,
+      "ndcg@5": 0.0,
+      "top_1_score": 0.6344395875930786,
+      "correct_score": 0.0
+    }
+  ],
+  "performance_analysis": {
+    "total_questions": 16,
+    "questions_answered_correctly_at_rank_1": 8,
+    "questions_answered_correctly_at_rank_3": 11,
+    "questions_answered_correctly_at_rank_5": 13,
+    "questions_not_found_in_top_5": 3,
+    "average_correct_answer_rank": 1.8461538461538463,
+    "median_correct_answer_rank": 1.0,
+    "score_statistics": {
+      "top_1_score_mean": 0.6816426292061806,
+      "top_1_score_std": 0.04000062952939083,
+      "correct_score_mean": 0.6789832619520334,
+      "correct_score_std": 0.041111880785435914
+    }
+  },
+  "test_cases": [
+    {
+      "question": "Ai là người đầu tiên đặt ra thuật ngữ Trí tuệ nhân tạo?",
+      "correct_chunk_id": "chunk_0",
+      "found_rank": 1,
+      "top_5_results": [
+        {
+          "chunk_id": "chunk_0",
+          "score": 0.7281674742698669,
+          "rank": 1,
+          "text_preview": "Lịch_sử và Phát_triển của Trí_tuệ Nhân_tạo tại Việt_Nam Khái_niệm về Trí_tuệ Nhân_tạo Trí_tuệ nhân_tạo ( AI ) là một lĩnh_vực của khoa_học máy_tính tậ..."
+        },
+        {
+          "chunk_id": "chunk_1",
+          "score": 0.7221620082855225,
+          "rank": 2,
+          "text_preview": "Mục_tiêu cuối_cùng của AI là tạo ra những hệ_thống có_thể thực_hiện các tác vụ đòi_hỏi trí thông_minh của con_người Giai_đoạn đầu của AI ( 1950 - 1970..."
+        },
+        {
+          "chunk_id": "chunk_3",
+          "score": 0.7146158218383789,
+          "rank": 3,
+          "text_preview": "Điều này dẫn đến sự giảm_sút đáng_kể trong đầu_tư và nghiên_cứu AI Sự trỗi dậy của Mạng_nơ - ron ( 1980 - 2000 ) Sự trỗi dậy của mạng nơ - ron nhân_tạ..."
+        },
+        {
+          "chunk_id": "chunk_2",
+          "score": 0.695722222328186,
+          "rank": 4,
+          "text_preview": "Họ tin rằng có_thể giải_quyết mọi vấn_đề bằng cách lập_trình các quy_tắc logic một cách tường_minh Mùa đông AI đầu_tiên ( 1970 - 1980 ) Vào giữa những..."
+        },
+        {
+          "chunk_id": "chunk_4",
+          "score": 0.6889878511428833,
+          "rank": 5,
+          "text_preview": "Kỷ_nguyên Học sâu ( 2010 - nay ) Ngày_nay , học sâu ( Deep_Learning ) , một nhánh của học máy sử_dụng mạng nơ - ron sâu , đã tạo ra những đột_phá đáng..."
+        }
+      ]
+    },
+    {
+      "question": "Hội nghị Dartmouth diễn ra vào năm nào?",
+      "correct_chunk_id": "chunk_0",
+      "found_rank": 1,
+      "top_5_results": [
+        {
+          "chunk_id": "chunk_0",
+          "score": 0.6772783398628235,
+          "rank": 1,
+          "text_preview": "Lịch_sử và Phát_triển của Trí_tuệ Nhân_tạo tại Việt_Nam Khái_niệm về Trí_tuệ Nhân_tạo Trí_tuệ nhân_tạo ( AI ) là một lĩnh_vực của khoa_học máy_tính tậ..."
+        },
+        {
+          "chunk_id": "chunk_1",
+          "score": 0.6766132116317749,
+          "rank": 2,
+          "text_preview": "Mục_tiêu cuối_cùng của AI là tạo ra những hệ_thống có_thể thực_hiện các tác vụ đòi_hỏi trí thông_minh của con_người Giai_đoạn đầu của AI ( 1950 - 1970..."
+        },
+        {
+          "chunk_id": "chunk_2",
+          "score": 0.6683326959609985,
+          "rank": 3,
+          "text_preview": "Họ tin rằng có_thể giải_quyết mọi vấn_đề bằng cách lập_trình các quy_tắc logic một cách tường_minh Mùa đông AI đầu_tiên ( 1970 - 1980 ) Vào giữa những..."
+        },
+        {
+          "chunk_id": "chunk_3",
+          "score": 0.6545684933662415,
+          "rank": 4,
+          "text_preview": "Điều này dẫn đến sự giảm_sút đáng_kể trong đầu_tư và nghiên_cứu AI Sự trỗi dậy của Mạng_nơ - ron ( 1980 - 2000 ) Sự trỗi dậy của mạng nơ - ron nhân_tạ..."
+        },
+        {
+          "chunk_id": "chunk_4",
+          "score": 0.6352735757827759,
+          "rank": 5,
+          "text_preview": "Kỷ_nguyên Học sâu ( 2010 - nay ) Ngày_nay , học sâu ( Deep_Learning ) , một nhánh của học máy sử_dụng mạng nơ - ron sâu , đã tạo ra những đột_phá đáng..."
+        }
+      ]
+    },
+    {
+      "question": "AI biểu tượng hay GOFAI là gì?",
+      "correct_chunk_id": "chunk_1",
+      "found_rank": null,
+      "top_5_results": [
+        {
+          "chunk_id": "chunk_4",
+          "score": 0.6567282676696777,
+          "rank": 1,
+          "text_preview": "Kỷ_nguyên Học sâu ( 2010 - nay ) Ngày_nay , học sâu ( Deep_Learning ) , một nhánh của học máy sử_dụng mạng nơ - ron sâu , đã tạo ra những đột_phá đáng..."
+        },
+        {
+          "chunk_id": "chunk_6",
+          "score": 0.6509547233581543,
+          "rank": 2,
+          "text_preview": "Trong y_tế , AI được sử_dụng để chẩn_đoán hình_ảnh y_khoa , dự_đoán dịch_bệnh , và phát_triển thuốc mới Trong nông_nghiệp , AI giúp tối_ưu_hóa việc tư..."
+        },
+        {
+          "chunk_id": "chunk_0",
+          "score": 0.6399644613265991,
+          "rank": 3,
+          "text_preview": "Lịch_sử và Phát_triển của Trí_tuệ Nhân_tạo tại Việt_Nam Khái_niệm về Trí_tuệ Nhân_tạo Trí_tuệ nhân_tạo ( AI ) là một lĩnh_vực của khoa_học máy_tính tậ..."
+        },
+        {
+          "chunk_id": "chunk_5",
+          "score": 0.6245160102844238,
+          "rank": 4,
+          "text_preview": "AI tại Việt_Nam Việt_Nam đang nhanh_chóng phát_triển trong lĩnh_vực AI với nhiều startup công_nghệ và trung_tâm nghiên_cứu Các trường đại_học hàng_đầu..."
+        },
+        {
+          "chunk_id": "chunk_3",
+          "score": 0.609136700630188,
+          "rank": 5,
+          "text_preview": "Điều này dẫn đến sự giảm_sút đáng_kể trong đầu_tư và nghiên_cứu AI Sự trỗi dậy của Mạng_nơ - ron ( 1980 - 2000 ) Sự trỗi dậy của mạng nơ - ron nhân_tạ..."
+        }
+      ]
+    },
+    {
+      "question": "Giai đoạn đầu của AI tập trung vào những gì?",
+      "correct_chunk_id": "chunk_1",
+      "found_rank": 2,
+      "top_5_results": [
+        {
+          "chunk_id": "chunk_0",
+          "score": 0.666607141494751,
+          "rank": 1,
+          "text_preview": "Lịch_sử và Phát_triển của Trí_tuệ Nhân_tạo tại Việt_Nam Khái_niệm về Trí_tuệ Nhân_tạo Trí_tuệ nhân_tạo ( AI ) là một lĩnh_vực của khoa_học máy_tính tậ..."
+        },
+        {
+          "chunk_id": "chunk_1",
+          "score": 0.6653794050216675,
+          "rank": 2,
+          "text_preview": "Mục_tiêu cuối_cùng của AI là tạo ra những hệ_thống có_thể thực_hiện các tác vụ đòi_hỏi trí thông_minh của con_người Giai_đoạn đầu của AI ( 1950 - 1970..."
+        },
+        {
+          "chunk_id": "chunk_3",
+          "score": 0.6624742150306702,
+          "rank": 3,
+          "text_preview": "Điều này dẫn đến sự giảm_sút đáng_kể trong đầu_tư và nghiên_cứu AI Sự trỗi dậy của Mạng_nơ - ron ( 1980 - 2000 ) Sự trỗi dậy của mạng nơ - ron nhân_tạ..."
+        },
+        {
+          "chunk_id": "chunk_4",
+          "score": 0.6622492074966431,
+          "rank": 4,
+          "text_preview": "Kỷ_nguyên Học sâu ( 2010 - nay ) Ngày_nay , học sâu ( Deep_Learning ) , một nhánh của học máy sử_dụng mạng nơ - ron sâu , đã tạo ra những đột_phá đáng..."
+        },
+        {
+          "chunk_id": "chunk_6",
+          "score": 0.6579174995422363,
+          "rank": 5,
+          "text_preview": "Trong y_tế , AI được sử_dụng để chẩn_đoán hình_ảnh y_khoa , dự_đoán dịch_bệnh , và phát_triển thuốc mới Trong nông_nghiệp , AI giúp tối_ưu_hóa việc tư..."
+        }
+      ]
+    },
+    {
+      "question": "Mùa đông AI đầu tiên xảy ra khi nào?",
+      "correct_chunk_id": "chunk_2",
+      "found_rank": 1,
+      "top_5_results": [
+        {
+          "chunk_id": "chunk_2",
+          "score": 0.6404475569725037,
+          "rank": 1,
+          "text_preview": "Họ tin rằng có_thể giải_quyết mọi vấn_đề bằng cách lập_trình các quy_tắc logic một cách tường_minh Mùa đông AI đầu_tiên ( 1970 - 1980 ) Vào giữa những..."
+        },
+        {
+          "chunk_id": "chunk_1",
+          "score": 0.6322458982467651,
+          "rank": 2,
+          "text_preview": "Mục_tiêu cuối_cùng của AI là tạo ra những hệ_thống có_thể thực_hiện các tác vụ đòi_hỏi trí thông_minh của con_người Giai_đoạn đầu của AI ( 1950 - 1970..."
+        },
+        {
+          "chunk_id": "chunk_3",
+          "score": 0.6211804747581482,
+          "rank": 3,
+          "text_preview": "Điều này dẫn đến sự giảm_sút đáng_kể trong đầu_tư và nghiên_cứu AI Sự trỗi dậy của Mạng_nơ - ron ( 1980 - 2000 ) Sự trỗi dậy của mạng nơ - ron nhân_tạ..."
+        },
+        {
+          "chunk_id": "chunk_0",
+          "score": 0.608047604560852,
+          "rank": 4,
+          "text_preview": "Lịch_sử và Phát_triển của Trí_tuệ Nhân_tạo tại Việt_Nam Khái_niệm về Trí_tuệ Nhân_tạo Trí_tuệ nhân_tạo ( AI ) là một lĩnh_vực của khoa_học máy_tính tậ..."
+        },
+        {
+          "chunk_id": "chunk_4",
+          "score": 0.5848166942596436,
+          "rank": 5,
+          "text_preview": "Kỷ_nguyên Học sâu ( 2010 - nay ) Ngày_nay , học sâu ( Deep_Learning ) , một nhánh của học máy sử_dụng mạng nơ - ron sâu , đã tạo ra những đột_phá đáng..."
+        }
+      ]
+    },
+    {
+      "question": "Nguyên nhân chính gây ra mùa đông AI là gì?",
+      "correct_chunk_id": "chunk_2",
+      "found_rank": 1,
+      "top_5_results": [
+        {
+          "chunk_id": "chunk_2",
+          "score": 0.7055390477180481,
+          "rank": 1,
+          "text_preview": "Họ tin rằng có_thể giải_quyết mọi vấn_đề bằng cách lập_trình các quy_tắc logic một cách tường_minh Mùa đông AI đầu_tiên ( 1970 - 1980 ) Vào giữa những..."
+        },
+        {
+          "chunk_id": "chunk_3",
+          "score": 0.7037778496742249,
+          "rank": 2,
+          "text_preview": "Điều này dẫn đến sự giảm_sút đáng_kể trong đầu_tư và nghiên_cứu AI Sự trỗi dậy của Mạng_nơ - ron ( 1980 - 2000 ) Sự trỗi dậy của mạng nơ - ron nhân_tạ..."
+        },
+        {
+          "chunk_id": "chunk_1",
+          "score": 0.688472330570221,
+          "rank": 3,
+          "text_preview": "Mục_tiêu cuối_cùng của AI là tạo ra những hệ_thống có_thể thực_hiện các tác vụ đòi_hỏi trí thông_minh của con_người Giai_đoạn đầu của AI ( 1950 - 1970..."
+        },
+        {
+          "chunk_id": "chunk_0",
+          "score": 0.6763690710067749,
+          "rank": 4,
+          "text_preview": "Lịch_sử và Phát_triển của Trí_tuệ Nhân_tạo tại Việt_Nam Khái_niệm về Trí_tuệ Nhân_tạo Trí_tuệ nhân_tạo ( AI ) là một lĩnh_vực của khoa_học máy_tính tậ..."
+        },
+        {
+          "chunk_id": "chunk_4",
+          "score": 0.6736047267913818,
+          "rank": 5,
+          "text_preview": "Kỷ_nguyên Học sâu ( 2010 - nay ) Ngày_nay , học sâu ( Deep_Learning ) , một nhánh của học máy sử_dụng mạng nơ - ron sâu , đã tạo ra những đột_phá đáng..."
+        }
+      ]
+    },
+    {
+      "question": "Thuật toán backpropagation được phát triển vào thời gian nào?",
+      "correct_chunk_id": "chunk_3",
+      "found_rank": 2,
+      "top_5_results": [
+        {
+          "chunk_id": "chunk_4",
+          "score": 0.6819330453872681,
+          "rank": 1,
+          "text_preview": "Kỷ_nguyên Học sâu ( 2010 - nay ) Ngày_nay , học sâu ( Deep_Learning ) , một nhánh của học máy sử_dụng mạng nơ - ron sâu , đã tạo ra những đột_phá đáng..."
+        },
+        {
+          "chunk_id": "chunk_3",
+          "score": 0.6710437536239624,
+          "rank": 2,
+          "text_preview": "Điều này dẫn đến sự giảm_sút đáng_kể trong đầu_tư và nghiên_cứu AI Sự trỗi dậy của Mạng_nơ - ron ( 1980 - 2000 ) Sự trỗi dậy của mạng nơ - ron nhân_tạ..."
+        },
+        {
+          "chunk_id": "chunk_0",
+          "score": 0.6534949541091919,
+          "rank": 3,
+          "text_preview": "Lịch_sử và Phát_triển của Trí_tuệ Nhân_tạo tại Việt_Nam Khái_niệm về Trí_tuệ Nhân_tạo Trí_tuệ nhân_tạo ( AI ) là một lĩnh_vực của khoa_học máy_tính tậ..."
+        },
+        {
+          "chunk_id": "chunk_6",
+          "score": 0.6446574330329895,
+          "rank": 4,
+          "text_preview": "Trong y_tế , AI được sử_dụng để chẩn_đoán hình_ảnh y_khoa , dự_đoán dịch_bệnh , và phát_triển thuốc mới Trong nông_nghiệp , AI giúp tối_ưu_hóa việc tư..."
+        },
+        {
+          "chunk_id": "chunk_1",
+          "score": 0.6445320844650269,
+          "rank": 5,
+          "text_preview": "Mục_tiêu cuối_cùng của AI là tạo ra những hệ_thống có_thể thực_hiện các tác vụ đòi_hỏi trí thông_minh của con_người Giai_đoạn đầu của AI ( 1950 - 1970..."
+        }
+      ]
+    },
+    {
+      "question": "Mạng nơ-ron nhân tạo trỗi dậy vào giai đoạn nào?",
+      "correct_chunk_id": "chunk_3",
+      "found_rank": 1,
+      "top_5_results": [
+        {
+          "chunk_id": "chunk_3",
+          "score": 0.7102640867233276,
+          "rank": 1,
+          "text_preview": "Điều này dẫn đến sự giảm_sút đáng_kể trong đầu_tư và nghiên_cứu AI Sự trỗi dậy của Mạng_nơ - ron ( 1980 - 2000 ) Sự trỗi dậy của mạng nơ - ron nhân_tạ..."
+        },
+        {
+          "chunk_id": "chunk_4",
+          "score": 0.683087944984436,
+          "rank": 2,
+          "text_preview": "Kỷ_nguyên Học sâu ( 2010 - nay ) Ngày_nay , học sâu ( Deep_Learning ) , một nhánh của học máy sử_dụng mạng nơ - ron sâu , đã tạo ra những đột_phá đáng..."
+        },
+        {
+          "chunk_id": "chunk_0",
+          "score": 0.6779907941818237,
+          "rank": 3,
+          "text_preview": "Lịch_sử và Phát_triển của Trí_tuệ Nhân_tạo tại Việt_Nam Khái_niệm về Trí_tuệ Nhân_tạo Trí_tuệ nhân_tạo ( AI ) là một lĩnh_vực của khoa_học máy_tính tậ..."
+        },
+        {
+          "chunk_id": "chunk_2",
+          "score": 0.670436441898346,
+          "rank": 4,
+          "text_preview": "Họ tin rằng có_thể giải_quyết mọi vấn_đề bằng cách lập_trình các quy_tắc logic một cách tường_minh Mùa đông AI đầu_tiên ( 1970 - 1980 ) Vào giữa những..."
+        },
+        {
+          "chunk_id": "chunk_1",
+          "score": 0.6636989712715149,
+          "rank": 5,
+          "text_preview": "Mục_tiêu cuối_cùng của AI là tạo ra những hệ_thống có_thể thực_hiện các tác vụ đòi_hỏi trí thông_minh của con_người Giai_đoạn đầu của AI ( 1950 - 1970..."
+        }
+      ]
+    },
+    {
+      "question": "Học sâu là gì và ứng dụng trong những lĩnh vực nào?",
+      "correct_chunk_id": "chunk_4",
+      "found_rank": 1,
+      "top_5_results": [
+        {
+          "chunk_id": "chunk_4",
+          "score": 0.7065142393112183,
+          "rank": 1,
+          "text_preview": "Kỷ_nguyên Học sâu ( 2010 - nay ) Ngày_nay , học sâu ( Deep_Learning ) , một nhánh của học máy sử_dụng mạng nơ - ron sâu , đã tạo ra những đột_phá đáng..."
+        },
+        {
+          "chunk_id": "chunk_3",
+          "score": 0.7015365362167358,
+          "rank": 2,
+          "text_preview": "Điều này dẫn đến sự giảm_sút đáng_kể trong đầu_tư và nghiên_cứu AI Sự trỗi dậy của Mạng_nơ - ron ( 1980 - 2000 ) Sự trỗi dậy của mạng nơ - ron nhân_tạ..."
+        },
+        {
+          "chunk_id": "chunk_0",
+          "score": 0.6864937543869019,
+          "rank": 3,
+          "text_preview": "Lịch_sử và Phát_triển của Trí_tuệ Nhân_tạo tại Việt_Nam Khái_niệm về Trí_tuệ Nhân_tạo Trí_tuệ nhân_tạo ( AI ) là một lĩnh_vực của khoa_học máy_tính tậ..."
+        },
+        {
+          "chunk_id": "chunk_5",
+          "score": 0.6745113134384155,
+          "rank": 4,
+          "text_preview": "AI tại Việt_Nam Việt_Nam đang nhanh_chóng phát_triển trong lĩnh_vực AI với nhiều startup công_nghệ và trung_tâm nghiên_cứu Các trường đại_học hàng_đầu..."
+        },
+        {
+          "chunk_id": "chunk_1",
+          "score": 0.6702765822410583,
+          "rank": 5,
+          "text_preview": "Mục_tiêu cuối_cùng của AI là tạo ra những hệ_thống có_thể thực_hiện các tác vụ đòi_hỏi trí thông_minh của con_người Giai_đoạn đầu của AI ( 1950 - 1970..."
+        }
+      ]
+    },
+    {
+      "question": "GPT-4 và BERT thuộc về kỷ nguyên nào của AI?",
+      "correct_chunk_id": "chunk_4",
+      "found_rank": 1,
+      "top_5_results": [
+        {
+          "chunk_id": "chunk_4",
+          "score": 0.7183657288551331,
+          "rank": 1,
+          "text_preview": "Kỷ_nguyên Học sâu ( 2010 - nay ) Ngày_nay , học sâu ( Deep_Learning ) , một nhánh của học máy sử_dụng mạng nơ - ron sâu , đã tạo ra những đột_phá đáng..."
+        },
+        {
+          "chunk_id": "chunk_3",
+          "score": 0.7126296758651733,
+          "rank": 2,
+          "text_preview": "Điều này dẫn đến sự giảm_sút đáng_kể trong đầu_tư và nghiên_cứu AI Sự trỗi dậy của Mạng_nơ - ron ( 1980 - 2000 ) Sự trỗi dậy của mạng nơ - ron nhân_tạ..."
+        },
+        {
+          "chunk_id": "chunk_0",
+          "score": 0.7016441822052002,
+          "rank": 3,
+          "text_preview": "Lịch_sử và Phát_triển của Trí_tuệ Nhân_tạo tại Việt_Nam Khái_niệm về Trí_tuệ Nhân_tạo Trí_tuệ nhân_tạo ( AI ) là một lĩnh_vực của khoa_học máy_tính tậ..."
+        },
+        {
+          "chunk_id": "chunk_1",
+          "score": 0.6810927391052246,
+          "rank": 4,
+          "text_preview": "Mục_tiêu cuối_cùng của AI là tạo ra những hệ_thống có_thể thực_hiện các tác vụ đòi_hỏi trí thông_minh của con_người Giai_đoạn đầu của AI ( 1950 - 1970..."
+        },
+        {
+          "chunk_id": "chunk_2",
+          "score": 0.6808836460113525,
+          "rank": 5,
+          "text_preview": "Họ tin rằng có_thể giải_quyết mọi vấn_đề bằng cách lập_trình các quy_tắc logic một cách tường_minh Mùa đông AI đầu_tiên ( 1970 - 1980 ) Vào giữa những..."
+        }
+      ]
+    },
+    {
+      "question": "Những trường đại học nào ở Việt Nam nghiên cứu về AI?",
+      "correct_chunk_id": "chunk_5",
+      "found_rank": 1,
+      "top_5_results": [
+        {
+          "chunk_id": "chunk_5",
+          "score": 0.5845984816551208,
+          "rank": 1,
+          "text_preview": "AI tại Việt_Nam Việt_Nam đang nhanh_chóng phát_triển trong lĩnh_vực AI với nhiều startup công_nghệ và trung_tâm nghiên_cứu Các trường đại_học hàng_đầu..."
+        },
+        {
+          "chunk_id": "chunk_4",
+          "score": 0.5746448040008545,
+          "rank": 2,
+          "text_preview": "Kỷ_nguyên Học sâu ( 2010 - nay ) Ngày_nay , học sâu ( Deep_Learning ) , một nhánh của học máy sử_dụng mạng nơ - ron sâu , đã tạo ra những đột_phá đáng..."
+        },
+        {
+          "chunk_id": "chunk_0",
+          "score": 0.5746238231658936,
+          "rank": 3,
+          "text_preview": "Lịch_sử và Phát_triển của Trí_tuệ Nhân_tạo tại Việt_Nam Khái_niệm về Trí_tuệ Nhân_tạo Trí_tuệ nhân_tạo ( AI ) là một lĩnh_vực của khoa_học máy_tính tậ..."
+        },
+        {
+          "chunk_id": "chunk_3",
+          "score": 0.5682228803634644,
+          "rank": 4,
+          "text_preview": "Điều này dẫn đến sự giảm_sút đáng_kể trong đầu_tư và nghiên_cứu AI Sự trỗi dậy của Mạng_nơ - ron ( 1980 - 2000 ) Sự trỗi dậy của mạng nơ - ron nhân_tạ..."
+        },
+        {
+          "chunk_id": "chunk_1",
+          "score": 0.5678717494010925,
+          "rank": 5,
+          "text_preview": "Mục_tiêu cuối_cùng của AI là tạo ra những hệ_thống có_thể thực_hiện các tác vụ đòi_hỏi trí thông_minh của con_người Giai_đoạn đầu của AI ( 1950 - 1970..."
+        }
+      ]
+    },
+    {
+      "question": "Chiến lược quốc gia về AI của Việt Nam có mục tiêu gì?",
+      "correct_chunk_id": "chunk_5",
+      "found_rank": 3,
+      "top_5_results": [
+        {
+          "chunk_id": "chunk_6",
+          "score": 0.6563650965690613,
+          "rank": 1,
+          "text_preview": "Trong y_tế , AI được sử_dụng để chẩn_đoán hình_ảnh y_khoa , dự_đoán dịch_bệnh , và phát_triển thuốc mới Trong nông_nghiệp , AI giúp tối_ưu_hóa việc tư..."
+        },
+        {
+          "chunk_id": "chunk_4",
+          "score": 0.6440300941467285,
+          "rank": 2,
+          "text_preview": "Kỷ_nguyên Học sâu ( 2010 - nay ) Ngày_nay , học sâu ( Deep_Learning ) , một nhánh của học máy sử_dụng mạng nơ - ron sâu , đã tạo ra những đột_phá đáng..."
+        },
+        {
+          "chunk_id": "chunk_5",
+          "score": 0.6298068761825562,
+          "rank": 3,
+          "text_preview": "AI tại Việt_Nam Việt_Nam đang nhanh_chóng phát_triển trong lĩnh_vực AI với nhiều startup công_nghệ và trung_tâm nghiên_cứu Các trường đại_học hàng_đầu..."
+        },
+        {
+          "chunk_id": "chunk_3",
+          "score": 0.6165045499801636,
+          "rank": 4,
+          "text_preview": "Điều này dẫn đến sự giảm_sút đáng_kể trong đầu_tư và nghiên_cứu AI Sự trỗi dậy của Mạng_nơ - ron ( 1980 - 2000 ) Sự trỗi dậy của mạng nơ - ron nhân_tạ..."
+        },
+        {
+          "chunk_id": "chunk_0",
+          "score": 0.6137182712554932,
+          "rank": 5,
+          "text_preview": "Lịch_sử và Phát_triển của Trí_tuệ Nhân_tạo tại Việt_Nam Khái_niệm về Trí_tuệ Nhân_tạo Trí_tuệ nhân_tạo ( AI ) là một lĩnh_vực của khoa_học máy_tính tậ..."
+        }
+      ]
+    },
+    {
+      "question": "AI được ứng dụng trong những lĩnh vực nào tại Việt Nam?",
+      "correct_chunk_id": "chunk_6",
+      "found_rank": 5,
+      "top_5_results": [
+        {
+          "chunk_id": "chunk_4",
+          "score": 0.7284034490585327,
+          "rank": 1,
+          "text_preview": "Kỷ_nguyên Học sâu ( 2010 - nay ) Ngày_nay , học sâu ( Deep_Learning ) , một nhánh của học máy sử_dụng mạng nơ - ron sâu , đã tạo ra những đột_phá đáng..."
+        },
+        {
+          "chunk_id": "chunk_5",
+          "score": 0.7221889495849609,
+          "rank": 2,
+          "text_preview": "AI tại Việt_Nam Việt_Nam đang nhanh_chóng phát_triển trong lĩnh_vực AI với nhiều startup công_nghệ và trung_tâm nghiên_cứu Các trường đại_học hàng_đầu..."
+        },
+        {
+          "chunk_id": "chunk_0",
+          "score": 0.7165758013725281,
+          "rank": 3,
+          "text_preview": "Lịch_sử và Phát_triển của Trí_tuệ Nhân_tạo tại Việt_Nam Khái_niệm về Trí_tuệ Nhân_tạo Trí_tuệ nhân_tạo ( AI ) là một lĩnh_vực của khoa_học máy_tính tậ..."
+        },
+        {
+          "chunk_id": "chunk_3",
+          "score": 0.7111951112747192,
+          "rank": 4,
+          "text_preview": "Điều này dẫn đến sự giảm_sút đáng_kể trong đầu_tư và nghiên_cứu AI Sự trỗi dậy của Mạng_nơ - ron ( 1980 - 2000 ) Sự trỗi dậy của mạng nơ - ron nhân_tạ..."
+        },
+        {
+          "chunk_id": "chunk_6",
+          "score": 0.7072263956069946,
+          "rank": 5,
+          "text_preview": "Trong y_tế , AI được sử_dụng để chẩn_đoán hình_ảnh y_khoa , dự_đoán dịch_bệnh , và phát_triển thuốc mới Trong nông_nghiệp , AI giúp tối_ưu_hóa việc tư..."
+        }
+      ]
+    },
+    {
+      "question": "AI được sử dụng như thế nào trong y tế và nông nghiệp?",
+      "correct_chunk_id": "chunk_6",
+      "found_rank": 4,
+      "top_5_results": [
+        {
+          "chunk_id": "chunk_4",
+          "score": 0.6925908923149109,
+          "rank": 1,
+          "text_preview": "Kỷ_nguyên Học sâu ( 2010 - nay ) Ngày_nay , học sâu ( Deep_Learning ) , một nhánh của học máy sử_dụng mạng nơ - ron sâu , đã tạo ra những đột_phá đáng..."
+        },
+        {
+          "chunk_id": "chunk_5",
+          "score": 0.6886376142501831,
+          "rank": 2,
+          "text_preview": "AI tại Việt_Nam Việt_Nam đang nhanh_chóng phát_triển trong lĩnh_vực AI với nhiều startup công_nghệ và trung_tâm nghiên_cứu Các trường đại_học hàng_đầu..."
+        },
+        {
+          "chunk_id": "chunk_3",
+          "score": 0.6875910758972168,
+          "rank": 3,
+          "text_preview": "Điều này dẫn đến sự giảm_sút đáng_kể trong đầu_tư và nghiên_cứu AI Sự trỗi dậy của Mạng_nơ - ron ( 1980 - 2000 ) Sự trỗi dậy của mạng nơ - ron nhân_tạ..."
+        },
+        {
+          "chunk_id": "chunk_6",
+          "score": 0.6821510195732117,
+          "rank": 4,
+          "text_preview": "Trong y_tế , AI được sử_dụng để chẩn_đoán hình_ảnh y_khoa , dự_đoán dịch_bệnh , và phát_triển thuốc mới Trong nông_nghiệp , AI giúp tối_ưu_hóa việc tư..."
+        },
+        {
+          "chunk_id": "chunk_0",
+          "score": 0.6701593399047852,
+          "rank": 5,
+          "text_preview": "Lịch_sử và Phát_triển của Trí_tuệ Nhân_tạo tại Việt_Nam Khái_niệm về Trí_tuệ Nhân_tạo Trí_tuệ nhân_tạo ( AI ) là một lĩnh_vực của khoa_học máy_tính tậ..."
+        }
+      ]
+    },
+    {
+      "question": "Những thách thức chính của AI hiện nay là gì?",
+      "correct_chunk_id": "chunk_7",
+      "found_rank": null,
+      "top_5_results": [
+        {
+          "chunk_id": "chunk_6",
+          "score": 0.7180396318435669,
+          "rank": 1,
+          "text_preview": "Trong y_tế , AI được sử_dụng để chẩn_đoán hình_ảnh y_khoa , dự_đoán dịch_bệnh , và phát_triển thuốc mới Trong nông_nghiệp , AI giúp tối_ưu_hóa việc tư..."
+        },
+        {
+          "chunk_id": "chunk_4",
+          "score": 0.7123588919639587,
+          "rank": 2,
+          "text_preview": "Kỷ_nguyên Học sâu ( 2010 - nay ) Ngày_nay , học sâu ( Deep_Learning ) , một nhánh của học máy sử_dụng mạng nơ - ron sâu , đã tạo ra những đột_phá đáng..."
+        },
+        {
+          "chunk_id": "chunk_3",
+          "score": 0.7081573009490967,
+          "rank": 3,
+          "text_preview": "Điều này dẫn đến sự giảm_sút đáng_kể trong đầu_tư và nghiên_cứu AI Sự trỗi dậy của Mạng_nơ - ron ( 1980 - 2000 ) Sự trỗi dậy của mạng nơ - ron nhân_tạ..."
+        },
+        {
+          "chunk_id": "chunk_0",
+          "score": 0.7076571583747864,
+          "rank": 4,
+          "text_preview": "Lịch_sử và Phát_triển của Trí_tuệ Nhân_tạo tại Việt_Nam Khái_niệm về Trí_tuệ Nhân_tạo Trí_tuệ nhân_tạo ( AI ) là một lĩnh_vực của khoa_học máy_tính tậ..."
+        },
+        {
+          "chunk_id": "chunk_1",
+          "score": 0.7043203115463257,
+          "rank": 5,
+          "text_preview": "Mục_tiêu cuối_cùng của AI là tạo ra những hệ_thống có_thể thực_hiện các tác vụ đòi_hỏi trí thông_minh của con_người Giai_đoạn đầu của AI ( 1950 - 1970..."
+        }
+      ]
+    },
+    {
+      "question": "Tương lai AI tại Việt Nam như thế nào?",
+      "correct_chunk_id": "chunk_7",
+      "found_rank": null,
+      "top_5_results": [
+        {
+          "chunk_id": "chunk_6",
+          "score": 0.6344395875930786,
+          "rank": 1,
+          "text_preview": "Trong y_tế , AI được sử_dụng để chẩn_đoán hình_ảnh y_khoa , dự_đoán dịch_bệnh , và phát_triển thuốc mới Trong nông_nghiệp , AI giúp tối_ưu_hóa việc tư..."
+        },
+        {
+          "chunk_id": "chunk_4",
+          "score": 0.6156971454620361,
+          "rank": 2,
+          "text_preview": "Kỷ_nguyên Học sâu ( 2010 - nay ) Ngày_nay , học sâu ( Deep_Learning ) , một nhánh của học máy sử_dụng mạng nơ - ron sâu , đã tạo ra những đột_phá đáng..."
+        },
+        {
+          "chunk_id": "chunk_5",
+          "score": 0.6006444692611694,
+          "rank": 3,
+          "text_preview": "AI tại Việt_Nam Việt_Nam đang nhanh_chóng phát_triển trong lĩnh_vực AI với nhiều startup công_nghệ và trung_tâm nghiên_cứu Các trường đại_học hàng_đầu..."
+        },
+        {
+          "chunk_id": "chunk_0",
+          "score": 0.598656415939331,
+          "rank": 4,
+          "text_preview": "Lịch_sử và Phát_triển của Trí_tuệ Nhân_tạo tại Việt_Nam Khái_niệm về Trí_tuệ Nhân_tạo Trí_tuệ nhân_tạo ( AI ) là một lĩnh_vực của khoa_học máy_tính tậ..."
+        },
+        {
+          "chunk_id": "chunk_3",
+          "score": 0.598392128944397,
+          "rank": 5,
+          "text_preview": "Điều này dẫn đến sự giảm_sút đáng_kể trong đầu_tư và nghiên_cứu AI Sự trỗi dậy của Mạng_nơ - ron ( 1980 - 2000 ) Sự trỗi dậy của mạng nơ - ron nhân_tạ..."
+        }
+      ]
+    }
+  ],
+  "memory_usage": {
+    "allocated_gb": 1.637095424,
+    "cached_gb": 1.746927616,
+    "device": "NVIDIA GeForce RTX 2080 Ti"
+  },
+  "timestamp": "2025-08-21T20:29:27.626872",
+  "total_questions": 16,
+  "total_chunks": 7
+}

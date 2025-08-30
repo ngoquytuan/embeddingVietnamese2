@@ -1,0 +1,16 @@
+{
+  "Model": "vinai/phobert-base-v2",
+  "Dimension": 768,
+  "Evaluation_Time_Seconds": 9.814610481262207,
+  "Total_Questions": 16,
+  "Total_Chunks": 7,
+  "MRR": 0.6114583333333333,
+  "Hit_Rate@1": 0.5,
+  "Hit_Rate@3": 0.6875,
+  "Hit_Rate@5": 0.8125,
+  "MAP@5": 0.6114583333333333,
+  "NDCG@5": 0.6612118045281781,
+  "Precision@5": 0.16250000000000003,
+  "Recall@5": 0.8125,
+  "Timestamp": "2025-08-21T20:29:27.626872"
+}

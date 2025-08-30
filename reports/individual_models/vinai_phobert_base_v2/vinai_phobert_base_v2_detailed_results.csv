@@ -1,0 +1,17 @@
+question_id,question,correct_chunk_id,found_rank,reciprocal_rank,hit@1,hit@3,hit@5,ap,ndcg@5,top_1_score,correct_score
+1,Ai là người đầu tiên đặt ra thuật ngữ Trí tuệ nhân...,chunk_0,1.0,1.0,1,1,1,1.0,1.0,0.7281674742698669,0.7281674742698669
+2,Hội nghị Dartmouth diễn ra vào năm nào?,chunk_0,1.0,1.0,1,1,1,1.0,1.0,0.6772783398628235,0.6772783398628235
+3,AI biểu tượng hay GOFAI là gì?,chunk_1,,0.0,0,0,0,0.0,0.0,0.6567282676696777,0.0
+4,Giai đoạn đầu của AI tập trung vào những gì?,chunk_1,2.0,0.5,0,1,1,0.5,0.6309297535714575,0.666607141494751,0.6653794050216675
+5,Mùa đông AI đầu tiên xảy ra khi nào?,chunk_2,1.0,1.0,1,1,1,1.0,1.0,0.6404475569725037,0.6404475569725037
+6,Nguyên nhân chính gây ra mùa đông AI là gì?,chunk_2,1.0,1.0,1,1,1,1.0,1.0,0.7055390477180481,0.7055390477180481
+7,Thuật toán backpropagation được phát triển vào thờ...,chunk_3,2.0,0.5,0,1,1,0.5,0.6309297535714575,0.6819330453872681,0.6710437536239624
+8,Mạng nơ-ron nhân tạo trỗi dậy vào giai đoạn nào?,chunk_3,1.0,1.0,1,1,1,1.0,1.0,0.7102640867233276,0.7102640867233276
+9,Học sâu là gì và ứng dụng trong những lĩnh vực nào...,chunk_4,1.0,1.0,1,1,1,1.0,1.0,0.7065142393112183,0.7065142393112183
+10,GPT-4 và BERT thuộc về kỷ nguyên nào của AI?,chunk_4,1.0,1.0,1,1,1,1.0,1.0,0.7183657288551331,0.7183657288551331
+11,Những trường đại học nào ở Việt Nam nghiên cứu về ...,chunk_5,1.0,1.0,1,1,1,1.0,1.0,0.5845984816551208,0.5845984816551208
+12,Chiến lược quốc gia về AI của Việt Nam có mục tiêu...,chunk_5,3.0,0.3333333333333333,0,1,1,0.3333333333333333,0.5,0.6563650965690613,0.6298068761825562
+13,AI được ứng dụng trong những lĩnh vực nào tại Việt...,chunk_6,5.0,0.2,0,0,1,0.2,0.38685280723454163,0.7284034490585327,0.7072263956069946
+14,AI được sử dụng như thế nào trong y tế và nông ngh...,chunk_6,4.0,0.25,0,0,1,0.25,0.43067655807339306,0.6925908923149109,0.6821510195732117
+15,Những thách thức chính của AI hiện nay là gì?,chunk_7,,0.0,0,0,0,0.0,0.0,0.7180396318435669,0.0
+16,Tương lai AI tại Việt Nam như thế nào?,chunk_7,,0.0,0,0,0,0.0,0.0,0.6344395875930786,0.0

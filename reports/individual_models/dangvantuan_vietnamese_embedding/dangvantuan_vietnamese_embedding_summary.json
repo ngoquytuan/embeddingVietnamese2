@@ -1,0 +1,16 @@
+{
+  "Model": "dangvantuan/vietnamese-embedding",
+  "Dimension": 768,
+  "Evaluation_Time_Seconds": 4.437558650970459,
+  "Total_Questions": 21,
+  "Total_Chunks": 12,
+  "MRR": 0.7238095238095238,
+  "Hit_Rate@1": 0.5714285714285714,
+  "Hit_Rate@3": 0.9047619047619048,
+  "Hit_Rate@5": 0.9523809523809523,
+  "MAP@5": 0.7238095238095238,
+  "NDCG@5": 0.7814558010247795,
+  "Precision@5": 0.19047619047619052,
+  "Recall@5": 0.9523809523809523,
+  "Timestamp": "2025-08-22T05:59:27.802232"
+}

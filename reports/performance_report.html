@@ -1,0 +1,117 @@
+
+        <html>
+        <head>
+            <title>Vietnamese Embedding Models - Performance Report</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 40px; }
+                h1, h2 { color: #2c3e50; }
+                table { border-collapse: collapse; width: 100%; margin: 20px 0; }
+                th, td { border: 1px solid #ddd; padding: 12px; text-align: center; }
+                th { background-color: #f8f9fa; font-weight: bold; }
+                .best { background-color: #d4edda; font-weight: bold; }
+                .second { background-color: #e2f3ff; }
+                .summary { background-color: #f8f9fa; padding: 20px; border-radius: 5px; margin: 20px 0; }
+            </style>
+        </head>
+        <body>
+        <h1>Vietnamese Embedding Models - Performance Report</h1><h2>Model Performance Comparison</h2><table border="1" class="dataframe performance-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Model</th>
+      <th>Full_Name</th>
+      <th>Dimension</th>
+      <th>Time</th>
+      <th>MRR</th>
+      <th>Hit_Rate@1</th>
+      <th>Hit_Rate@3</th>
+      <th>Hit_Rate@5</th>
+      <th>MAP@5</th>
+      <th>NDCG@5</th>
+      <th>Precision@5</th>
+      <th>Recall@5</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Vietnamese_Embedding</td>
+      <td>AITeamVN/Vietnamese_Embedding</td>
+      <td>1024</td>
+      <td>5.556309</td>
+      <td>0.866667</td>
+      <td>0.761905</td>
+      <td>0.952381</td>
+      <td>1.000000</td>
+      <td>0.866667</td>
+      <td>0.900503</td>
+      <td>0.200000</td>
+      <td>1.000000</td>
+    </tr>
+    <tr>
+      <td>Qwen3-Embedding-0.6B</td>
+      <td>Qwen/Qwen3-Embedding-0.6B</td>
+      <td>1024</td>
+      <td>6.867633</td>
+      <td>0.841270</td>
+      <td>0.714286</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>0.841270</td>
+      <td>0.882082</td>
+      <td>0.200000</td>
+      <td>1.000000</td>
+    </tr>
+    <tr>
+      <td>paraphrase-multilingual-MiniLM-L12-v2</td>
+      <td>sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2</td>
+      <td>384</td>
+      <td>4.887834</td>
+      <td>0.763492</td>
+      <td>0.666667</td>
+      <td>0.857143</td>
+      <td>0.904762</td>
+      <td>0.763492</td>
+      <td>0.799031</td>
+      <td>0.180952</td>
+      <td>0.904762</td>
+    </tr>
+    <tr>
+      <td>vietnamese-embedding</td>
+      <td>dangvantuan/vietnamese-embedding</td>
+      <td>768</td>
+      <td>4.437559</td>
+      <td>0.723810</td>
+      <td>0.571429</td>
+      <td>0.904762</td>
+      <td>0.952381</td>
+      <td>0.723810</td>
+      <td>0.781456</td>
+      <td>0.190476</td>
+      <td>0.952381</td>
+    </tr>
+    <tr>
+      <td>sup-SimCSE-VietNamese-phobert-base</td>
+      <td>VoVanPhuc/sup-SimCSE-VietNamese-phobert-base</td>
+      <td>768</td>
+      <td>2.961996</td>
+      <td>0.640476</td>
+      <td>0.428571</td>
+      <td>0.857143</td>
+      <td>0.952381</td>
+      <td>0.640476</td>
+      <td>0.719196</td>
+      <td>0.190476</td>
+      <td>0.952381</td>
+    </tr>
+  </tbody>
+</table>
+        <div class="summary">
+            <h3>🏆 Best Performing Model</h3>
+            <p><strong>Vietnamese_Embedding</strong> achieved the highest MRR score of <strong>0.8667</strong></p>
+            <ul>
+                <li>Hit Rate@1: 76.19%</li>
+                <li>Hit Rate@5: 100.00%</li>
+                <li>Embedding Dimension: 1024</li>
+                <li>Evaluation Time: 5.56s</li>
+            </ul>
+        </div>
+        </body></html>
